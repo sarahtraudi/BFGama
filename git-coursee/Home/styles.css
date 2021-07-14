@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body * {
+    box-sizing: border-box;
+}
+body {
+    background-size: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    padding: 24px 10%;
+}
+
+#Image-Container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#Image-Container img {
+    height: 400px;
+}
+
+#Img-Title {
+    align-self: center;
+    width: 60%;
+    margin-left: 15px;
+}
+
+#Img-Title h1 {
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Lobster', cursive;
+    color: #366640;
+    margin: 0 0 10px 0;
+}
+
+#Img-Title h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#Img-Title h3 {
+    font-size: 20px;
+    font-weight: 200;
+    }
+
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    padding: 2% 8%;
+}
+
+#Div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 10px 0 25px 0;
+    background-color: #248b45;
+    color: white;
+    text-align: center;
+}
+
+#div1-h3 {
+    font-size: 20px;
+    font-weight: 200;
+    width: 70%;
+    }
+
+#Produtos h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 5px;
+    }
+
+#Produtos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#Produtos li {
+    margin: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#Produtos li img {
+    border-radius: 5px;
+    max-height: 250px;
+}
+
+#Produtos li img:hover {
+    box-shadow: 0px 0px 15px -3px #00000087;
+}
+
+#formulario-out {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario {
+    background-color: #c0cab4;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -3px #00000087;
+    text-align: center;
+    
+    align-items: center;
+}
+
+#formulario h4 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#formulario-in {
+    padding: 0 0 16px 0;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: #65477f;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border:none;
+
+
+}
+
+button:hover {
+    color: white;
+    background-color: #248b45;
+    border-color: white;
+}
+
+#formulario label {
+    padding: 4px;
+}
+
+#formulario input {
+    width: 340px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 10%;
+}
